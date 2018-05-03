@@ -1,0 +1,84 @@
+
+#calculator {
+  margin: auto; width: 280px; 
+  padding: 10px 10px 0px 10px; 
+  border: 10px solid #d5d5d5;    
+  background: #FFFFCC; 
+  
+}
+
+.display {
+  min-height: 40px;
+  background: #ffffff;
+  border: 2px solid #ff1493;
+  margin-bottom: 10px;
+  padding: 5px;
+  text-align: right;
+  border-radius: 10px;
+}
+
+.display .main {
+  font-size: 30px;
+}
+.display .sub {
+  font-size: 20px;
+}
+
+.numbers {
+  width: 165px;
+}
+.controlPanel {
+  position: relative;
+  padding-right: 50px;
+}
+.numbers span {
+  display: inline-block;
+  padding: 15px 0px;
+  background: #e5e5e5;
+  color: #FF1493;
+  border: 1px solid #a0a0a0;
+  font-weight: normal;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-size: 23px;
+  width: 40px;
+  text-align: center;
+  cursor: pointer;
+}
+.operation span {
+  display: block;
+  padding: 15px 0px;
+  background: #FF99CC;
+  color: #000000;
+  border: 1px solid #a0a0a0;
+  font-weight: normal;
+  margin-bottom: 10px;
+  font-size: 20px;
+  width: 50px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 50%;
+}
+#equalTo {
+  display:block; 
+  background: #DA70D6; 
+  font-size: 20px; 
+  font-weight: bold;
+  color: #ffffff; 
+  padding: 40px 0px; 
+  width: 50px; 
+  text-align: center;
+  position: absolute; 
+  bottom: 30px; 
+  right: 0px; 
+  border: 1px solid #DA70D6;
+  cursor: pointer;      
+  border-radius: 20%;
+}
+
+
+.f_l {float: left;}
+.f_r {float: right;}
+.clearfix:after {clear: both;}
+.clearfix:before,
+.clearfix:after {display: table; content: " ";}
